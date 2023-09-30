@@ -1,0 +1,40 @@
+{
+  "name": "tailwind-psuedo",
+  "version": "0.1.0",
+  "description": "A cleaner way to write psuedo elements code with tailwindcss",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "tsup": {
+    "entry": ["src/index.ts"],
+    "splitting": false,
+    "sourcemap": false,
+    "clean": true
+  },
+  "exports": "./dist/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chakravarthy7102/tailwind-psuedo.git"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Chakravarthi Medicharla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chakravarthy7102/tailwind-psuedo/issues"
+  },
+  "homepage": "https://github.com/Chakravarthy7102/tailwind-psuedo#readme",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}

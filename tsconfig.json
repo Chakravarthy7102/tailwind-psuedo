@@ -1,0 +1,17 @@
+{
+	"include": ["src","tsup.config.ts"],
+	"compilerOptions": {
+		"module": "es6",
+		"target": "es6", 
+		"moduleResolution": "node",
+		"declaration": true, // generate .d.ts files
+		"outDir": "dist", // output compiled js, d.ts, and source map to dist folder
+		"strict": true,
+		"esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+	},
+	"exclude": ["node_modules", "dist"]
+}
