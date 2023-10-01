@@ -1,6 +1,6 @@
 {
   "name": "tailwind-psuedo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A cleaner way to write psuedo elements code with tailwindcss",
   "main": "dist/index.js",
   "scripts": {
