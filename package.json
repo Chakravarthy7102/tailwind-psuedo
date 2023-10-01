@@ -5,9 +5,10 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "npm run lint && tsup",
-    "lint": "eslint '**'",
+    "lint": "eslint './src/**/*'",
     "test": "jest test --config jest.config.mjs --coverage",
-    "test:watch": "jest test --config jest.config.mjs --watch"
+    "test:watch": "jest test --config jest.config.mjs --watch",
+    "publish":"npm run test && npm run build && npm publish"
   },
   "files": [
     "dist",
